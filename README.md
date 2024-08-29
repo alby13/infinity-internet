@@ -29,16 +29,28 @@ Step 2. Set up your web server: Ensure your web server is configured to serve PH
 
 Step 3. Directory permissions: Make sure the generated-pages directory is writable by the web server: 
 
+Create "generated-pages" directory through FTP and change the file permissions to 775, or for Linux...
+~~~
 mkdir generated-pages
 chmod 775 generated-pages
+~~~
 
-
-
-<h2 align="center">How does Infinity Interent work?</h2>
+<h2 align="center">How does Infinity Internet work?</h2>
 
 
 <h2 align="center">How does the user use Infinity Internet?</h2>
 
+1. Open your web browser and navigate to the URL where your application is hosted (e.g., http://localhost/infinity-internet).
+
+2. Enter a description of the website you want to generate in the input box.
+
+3. Click the "To Infinity" button to generate the web page.
+
+You will be redirected to the newly generated page once it is ready. If there are any errors, they will be displayed on the main page. There is a server log called <code>infinity_log.txt</code> as well.
+
+
+### Acknowledgments
+Guzzle HTTP client used to interact with the Cerebras API. http://guzzlephp.org/
 
 # Truth Open Source License (TOSL)
 
