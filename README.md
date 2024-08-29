@@ -40,7 +40,7 @@ The Software is provided "as is," without warranty of any kind, express or impli
 
 4. Responsible Use
 
-Users of the Software are encouraged to deploy and use it responsibly, especially in the context of AI-generated content. The original author does not endorse any specific use of the Software that may lead to harm or unethical outcomes.
+Developers and Users of the Software are encouraged to program, deploy, and use it responsibly, especially in the context of AI-generated content. The original author does not endorse any specific use of the Software that may lead to harm or unethical outcomes.
 
 5. Termination
 
