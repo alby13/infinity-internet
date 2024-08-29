@@ -7,7 +7,7 @@ This program is designed to use the "Instant AI" of Cerebras API. Large Language
 
 <h1 align="center">What is Infinity Internet?</h1>
 
-The user inputs a website idea, the AI generates website with Cerebras AI.
+The user inputs a website idea, the AI generates a complete website with the speed of Cerebras AI utilizing the Open-Source Llama 3.1 70Billion Parameter model.
 
 
 # Infinity Internet Open Source License (IIOSL)
