@@ -37,6 +37,59 @@ chmod 775 generated-pages
 
 <h2 align="center">How does Infinity Internet work?</h2>
 
+The Infinity Internet application is a PHP-based web application that generates HTML and CSS web pages based on user input. It interacts with the Cerebras API to create content dynamically. The application is structured to handle user sessions, manage API requests, and log activities for debugging purposes.
+
+## Technical Components
+
+1. **PHP and Composer**:
+   - The application is built using PHP, a server-side scripting language. Composer is used for dependency management, allowing the application to utilize external libraries like Guzzle for making HTTP requests.
+
+2. **Cerebras API**:
+   - The application communicates with the Cerebras API to generate web content. The API key is stored in a configuration file (`config.php`), which is required for authentication when making requests to the API.
+
+3. **User Sessions**:
+   - The application uses PHP sessions to track user interactions. Each user is assigned a unique identifier (`user_id`) stored in the session, which helps in organizing generated content.
+
+4. **Generating Web Pages**:
+   - When a user submits a prompt through the web form, the application processes the input and sends a request to the Cerebras API. The request includes:
+     - A system message that instructs the API on how to generate the content (e.g., creating a full HTML page with CSS).
+     - The user's prompt, which describes the desired website.
+   - The API responds with generated HTML and CSS, which is then saved to a file in a user-specific directory.
+
+5. **Error Handling and Logging**:
+   - The application includes error handling mechanisms to manage API request failures and unexpected responses. Errors are logged to a file (`debug_log.txt`) for troubleshooting.
+   - The application implements a retry mechanism, attempting to regenerate the page up to three times if an error occurs.
+
+6. **Rate Limiting**:
+   - To prevent abuse, the application enforces a rate limit of one request every 5 seconds per user. This is managed by storing the timestamp of the last request in the session.
+
+7. **Deleting Old Pages**:
+   - The application periodically cleans up old generated pages. Any files older than 10 minutes are deleted to save storage space and keep the directory organized.
+
+8. **Frontend Interface**:
+   - The user interface is built using HTML and CSS. It includes a form for user input and displays error messages if any issues arise during the page generation process.
+   - JavaScript can be used to show a loading indicator when the form is submitted, enhancing the user experience.
+
+## Workflow
+
+1. **User Input**:
+   - The user enters a description of the desired website in a text input field and submits the form.
+
+2. **Processing the Request**:
+   - Upon form submission, the application checks the rate limit and sanitizes the user input.
+   - A request is sent to the Cerebras API with the user's prompt and the system message.
+
+3. **Receiving the Response**:
+   - The application processes the API response, extracting the generated HTML and CSS.
+   - If successful, the content is saved to a uniquely named file in a directory specific to the user.
+
+4. **Redirecting the User**:
+   - The user is redirected to the newly generated page, where they can view the content.
+
+5. **Error Handling**:
+   - If any errors occur during the process, appropriate messages are displayed to the user, and the errors are logged for further analysis.
+
+The Infinity Internet application is designed to be user-friendly while maintaining robust error handling and logging capabilities, making it suitable for users looking to dream up web content based on their descriptions.
 
 <h2 align="center">How does the user use Infinity Internet?</h2>
 
@@ -52,7 +105,7 @@ You will be redirected to the newly generated page once it is ready. If there ar
 ### Acknowledgments
 Guzzle HTTP client used to interact with the Cerebras API. http://guzzlephp.org/
 
-# Truth Open Source License (TOSL)
+# True Open Source License (TrueOSL)
 
 Version 1.0
 
