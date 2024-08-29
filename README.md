@@ -9,7 +9,9 @@ The user inputs a website idea, the AI generates website with Cerebras AI.
 
 # Infinity Internet Open Source License (IIOSL)
 
-Version 1.0, August 28, 2024
+Version 1.0
+
+August 28, 2024
 
 1. Permissions
 
