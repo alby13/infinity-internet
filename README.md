@@ -1,3 +1,5 @@
+<p align="center">Live Demo: https://InfinityInternet.SingularityON.com/ </p>
+
 <h1 align="center">Infinity Internet</h1>
 
 Infinity Internet is a PHP web application that generates HTML and CSS webpages based on user input. It utilizes the Cerebras API to create dynamic web content tailored to user descriptions.
