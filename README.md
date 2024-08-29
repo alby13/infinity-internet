@@ -1,19 +1,36 @@
 <h1 align="center">Infinity Internet</h1>
 
+Infinity Internet is a PHP web application that generates HTML and CSS webpages based on user input. It utilizes the Cerebras API to create dynamic web content tailored to user descriptions.
+
+Advanced websites are programmed instantly, saved on the web server, and served to the user seamlessly.
+
+<h2 align="center">Features</h2>
+
+- Generate unique web pages with HTML and CSS based on user prompts.
+- Automatically logs actions and errors for debugging in .
+- Rate limiting to prevent abuse (one request every 5 seconds).
+- Automatically deletes old generated pages after 10 minutes.
+
+- 
+<h1 align="center">About Cerebras Inference Company</h1>
+
 Cerebras Inference currently holds the record for the fastest AI Inference speed on the internet (As of August 28, 2024).
 
 This program is designed to use the "Instant AI" of Cerebras API. Large Language Model AI Content Generating
 
-
-<h1 align="center">What is Infinity Internet?</h1>
-
-The user inputs a website idea, the AI generates a complete website with the speed of Cerebras AI.
-
 Cerebras Utilizes the Open-Source AI Model Llama 3.1 70Billion Parameter.
 
-Advanced websites are programmed instantly, saved on the web server, and served to the user seamlessly.
+<h2 align="center">How do I set Infinity Internet up on my web server?</h2>
 
-<h2 align="center">How do I set Infinity Interent up on my web server?</h2>
+Step 1. Configure the API key by editing <code>config.php</code> and Copy and Paste your API Key inside.
+
+Step 2. Set up your web server: Ensure your web server is configured to serve PHP files. You can use Apache, Nginx, or any other server that supports PHP.
+
+Step 3. Directory permissions: Make sure the generated-pages directory is writable by the web server: 
+
+mkdir generated-pages
+chmod 775 generated-pages
+
 
 
 <h2 align="center">How does Infinity Interent work?</h2>
