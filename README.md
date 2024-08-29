@@ -11,14 +11,15 @@ Advanced websites are programmed instantly, saved on the web server, and served 
 - Rate limiting to prevent abuse (one request every 5 seconds).
 - Automatically deletes old generated pages after 10 minutes.
 
-- 
-<h1 align="center">About Cerebras Inference Company</h1>
+<h1 align="center">About Cerebras Inference</h1>
 
 Cerebras Inference currently holds the record for the fastest AI Inference speed on the internet (As of August 28, 2024).
 
 This program is designed to use the "Instant AI" of Cerebras API. Large Language Model AI Content Generating
 
 Cerebras Utilizes the Open-Source AI Model Llama 3.1 70Billion Parameter.
+
+https://www.cerebras.ai
 
 <h2 align="center">How do I set Infinity Internet up on my web server?</h2>
 
