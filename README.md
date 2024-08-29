@@ -4,6 +4,9 @@ Cerebras Inference currently holds the record for the fastest AI Inference speed
 
 This program is designed to use the "Instant AI" of Cerebras API. Large Language Model AI Content Generating
 
+
+<h1 align="center">What is Infinity Internet?</h1>
+
 The user inputs a website idea, the AI generates website with Cerebras AI.
 
 
