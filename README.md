@@ -23,17 +23,29 @@ https://www.cerebras.ai
 
 <h2 align="center">How do I set Infinity Internet up on my web server?</h2>
 
-Step 1. Configure the API key by editing <code>config.php</code> and Copy and Paste your API Key inside.
+**Step 1.  Configure the API Key**
 
-Step 2. Set up your web server: Ensure your web server is configured to serve PHP files. You can use Apache, Nginx, or any other server that supports PHP.
+Configure the API key by editing <code>config.php</code> and Copy and Paste your API Key inside.
 
-Step 3. Directory permissions: Make sure the generated-pages directory is writable by the web server: 
+**Step 2.  Install Guzzle Library**
+
+Before setting up the application, you need to install Guzzle, a PHP HTTP client that the application uses to interact with the Cerebras API. You can install Guzzle using Composer. If you haven't installed Composer yet, you can download it from [getcomposer.org](https://getcomposer.org/).
+
+**Step 3. Set up your web server**
+
+Ensure your web server is configured to serve PHP files. You can use Apache, Nginx, or any other server that supports PHP.
+
+**Step 4. Set up the "generated-pages" directory (Optional)**
+
+Directory permissions: Make sure the generated-pages directory is writable by the web server: 
 
 Create "generated-pages" directory through FTP and change the file permissions to 775, or for Linux...
 ~~~
 mkdir generated-pages
 chmod 775 generated-pages
 ~~~
+
+During my testing on Apache the PHP scripts set up the folders, generated the files, and set the file permissions as needed automatically.
 
 <h2 align="center">How does Infinity Internet work?</h2>
 
