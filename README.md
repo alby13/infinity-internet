@@ -22,7 +22,7 @@ Advanced websites are programmed instantly, saved on the web server, and served 
 <h2 align="center">How does the user use Infinity Internet?</h2>
 
 
-# Infinity Internet Open Source License (IIOSL)
+# Truth Open Source License (TOSL)
 
 Version 1.0
 
