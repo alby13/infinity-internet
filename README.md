@@ -107,7 +107,7 @@ The Infinity Internet application is designed to be user-friendly while maintain
 
 <h2 align="center">How does the user use Infinity Internet?</h2>
 
-1. Open your web browser and navigate to the URL where your application is hosted (e.g., http://localhost/infinity-internet).
+1. Open your web browser and navigate to the URL where your application is hosted (e.g., http://yourwebsite.com/infinity-internet).
 
 2. Enter a description of the website you want to generate in the input box.
 
