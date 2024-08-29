@@ -7,7 +7,7 @@ Advanced websites are programmed instantly, saved on the web server, and served 
 <h2 align="center">Features</h2>
 
 - Generate unique websites that are styled with CSS based on user prompts.
-- Automatically logs actions and errors for debugging in debug_log.txt.
+- Automatically logs actions and errors for debugging in <code>infinity_log.txt</code>.
 - Rate limiting to prevent abuse (one request every 5 seconds).
 - Automatically deletes old generated pages after 10 minutes.
 
