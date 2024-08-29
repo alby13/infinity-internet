@@ -11,8 +11,6 @@ The user inputs a website idea, the AI generates website with Cerebras AI.
 
 Version 1.0
 
-August 28, 2024
-
 1. Permissions
 
 You are free to use, modify, distribute, and sublicense the code and content of the "Infinity Internet" project (the "Software") in any manner you choose, without any restrictions.
@@ -40,3 +38,5 @@ There are no specific terms or agreements required for contributions to the Soft
 7. Open Source Philosophy
 
 This license is designed to promote the truest sense of open source, allowing for maximum freedom and collaboration while maintaining a commitment to responsible use.
+
+Written on August 28, 2024 - A copy of this license is encouraged to be included with your software, but is not required.
