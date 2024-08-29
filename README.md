@@ -13,6 +13,14 @@ Cerebras Utilizes the Open-Source AI Model Llama 3.1 70Billion Parameter.
 
 Advanced websites are programmed instantly, saved on the web server, and served to the user seamlessly.
 
+<h2 align="center">How do I set Infinity Interent up on my web server?</h2>
+
+
+<h2 align="center">How does Infinity Interent work?</h2>
+
+
+<h2 align="center">How does the user use Infinity Internet?</h2>
+
 
 # Infinity Internet Open Source License (IIOSL)
 
