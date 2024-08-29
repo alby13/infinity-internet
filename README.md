@@ -71,7 +71,7 @@ The Infinity Internet application is a PHP-based web application that generates 
    - The API responds with generated HTML and CSS, which is then saved to a file in a user-specific directory.
 
 5. **Error Handling and Logging**:
-   - The application includes error handling mechanisms to manage API request failures and unexpected responses. Errors are logged to a file (`debug_log.txt`) for troubleshooting.
+   - The application includes error handling mechanisms to manage API request failures and unexpected responses. Errors are logged to a file (`infinity_log.txt`) for troubleshooting.
    - The application implements a retry mechanism, attempting to regenerate the page up to three times if an error occurs.
 
 6. **Rate Limiting**:
